@@ -19,6 +19,8 @@ var Box2D = {};
 
 (function (a2j, undefined) {
 
+   // 下記の文の条件が間違っておりエラーがでるためコメントアウト
+   /*
    if(!(Object.prototype.defineProperty instanceof Function)
       && Object.prototype.__defineGetter__ instanceof Function
       && Object.prototype.__defineSetter__ instanceof Function)
@@ -30,6 +32,7 @@ var Box2D = {};
             obj.__defineSetter__(p, cfg.set);
       }
    }
+   */
    
    function emptyFn() {};
    a2j.inherit = function(cls, base) {
